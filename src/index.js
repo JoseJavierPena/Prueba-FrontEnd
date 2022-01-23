@@ -6,6 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { domain, client_id } from "./config";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 // const domain = "dev-y-wp2t2k.us.auth0.com";
 // const client_id = "SOEUQHHc6HVWdQyzgWEDjIhSMcbkY3lt";
 
@@ -14,7 +16,7 @@ import { domain, client_id } from "./config";
 //   process.env.REACT_APP_AUTH0_CLIENT_ID
 // );
 
-console.log(domain, client_id);
+// console.log(domain, client_id);
 
 ReactDOM.render(
   <React.StrictMode>
