@@ -6,6 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { domain, client_id } from "./config";
 
+// import "@fortawesome/fontawesome-free/css/all.min.css";
+// import "bootstrap-css-only/css/bootstrap.min.css";
+// import "mdbreact/dist/css/mdb.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // const domain = "dev-y-wp2t2k.us.auth0.com";
